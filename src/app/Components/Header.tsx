@@ -1,5 +1,5 @@
 "use client";
-import { log } from "console";
+
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -15,7 +15,7 @@ const Header = () => {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
     // setIsMenuOpen((prev) => !prev)
-    console.log("Menu State", !isMenuOpen);
+    // console.log("Menu State", !isMenuOpen);
   };
   return (
     <header
